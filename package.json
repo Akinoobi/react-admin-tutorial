@@ -1,35 +1,21 @@
 {
-  "name": "react-admin-tutorial",
-  "version": "5.0.0",
+  "name": "mtg-web",
+  "version": "0.1.0",
   "private": true,
-  "engines": {
-    "node": "10"
-  },
   "dependencies": {
-    "@babel/core": "^7.13.10",
-    "@material-ui/core": "^4.11.3",
-    "@material-ui/icons": "^4.11.2",
-    "@material-ui/lab": "^4.0.0-alpha.57",
-    "@material-ui/pickers": "^3.2.10",
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
     "@testing-library/user-event": "^12.1.10",
-    "@types/node": "^14.14.32",
+    "@types/node": "^14.14.33",
     "@types/react": "^17.0.3",
     "@types/react-dom": "^17.0.2",
-    "@typescript-eslint/parser": "^4.17.0",
-    "eslint": "^7.21.0",
-    "eslint-config-react-app": "^6.0.0",
     "prop-types": "^15.7.2",
-    "ra-data-json-server": "^3.13.1",
+    "ra-data-json-server": "^3.13.2",
     "react": "^17.0.1",
-    "react-admin": "^3.13.1",
+    "react-admin": "^3.13.2",
     "react-dom": "^17.0.1",
     "react-scripts": "4.0.3",
-    "tslint-react": "^5.0.0",
-    "typesafe-actions": "^5.1.0",
     "typescript": "^4.2.3",
-    "typescript-eslint": "^0.0.1-alpha.0",
     "web-vitals": "^1.0.1"
   },
   "scripts": {
@@ -37,6 +23,12 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
   },
   "browserslist": {
     "production": [
