@@ -6,7 +6,8 @@ import {PostList, PostEdit, PostCreate} from "./post/posts";
 import PostIcon from '@material-ui/icons/Book';
 
 const dataProvider = jsonServerProvider('https://jsonplaceholder.typicode.com');
-const App = () => (
+
+const App = ({children}: {children?: any}) => {
     <Admin dataProvider={dataProvider}>
         <Resource name="posts" list={PostList} edit={PostEdit} create={PostCreate} icon={PostIcon}/>
         <Resource name='users' list={UserList} />
